@@ -8,7 +8,7 @@
 * the program must be written in Golang
 * the code must respect the *good practices* see goodPractice.md for details
 * it is recommended to have **test files** for unit testing
-* the following files ascii font files are given, and formatted in a way that it is not necessary to change them.
+* the following ascii font files are given, and formatted in a way that it is not necessary to change them.
   * [shadow.txt](https://github.com/01-edu/public.git)
   * [standard.txt](https://github.com/01-edu/public.git)
   * [thinkertoy.txt](https://github.com/01-edu/public.git)

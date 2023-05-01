@@ -18,4 +18,9 @@
 *   characters in the banner are separated by a new line character \n
 
 ### Allowed packages
-* only the standard Golang packages are allowed
+* only the [standard](https://golang.org/pkg/) Golang packages are allowed
+
+### Examples of usage
+![example1](/usage1.PNG)
+
+![example2](/usage2.PNG)

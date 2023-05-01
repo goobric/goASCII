@@ -1,0 +1,8 @@
+shadow.txt
+https://github.com/01-edu/public.git
+
+public.txt
+https://github.com/01-edu/public.git
+
+thinkertoy.txt
+https://github.com/01-edu/public.git

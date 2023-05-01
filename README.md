@@ -1,5 +1,9 @@
 ## ascii-art written in Golang
 
+### Prerequisites
+- A computer..
+- [Go](https://go.dev/) v1.19 or higher
+
 ### Objective
 *   write a program that receives a **string** (input) as an argument, and outputs the string in *graphical representation* using the **ascii** characters.
 *   the program should receive as input: numbers, letters, spaces, special characters and \n (the newline command).

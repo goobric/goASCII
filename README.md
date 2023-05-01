@@ -9,6 +9,13 @@
 * the code must respect the *good practices* see goodPractice.md for details
 * it is recommended to have **test files** for unit testing
 * the following files ascii font files are given, and formatted in a way that it is not necessary to change them.
-  * shadow.txt
-  * standard.txt
-  * thinkertoy.txt
+  * [shadow.txt](https://github.com/01-edu/public.git)
+  * [standard.txt](https://github.com/01-edu/public.git)
+  * [thinkertoy.txt](https://github.com/01-edu/public.git)
+
+### Banner Format
+*   each character in the banner has a height of 8 lines
+*   characters in the banner are separated by a new line character \n
+
+### Allowed packages
+* only the standard Golang packages are allowed

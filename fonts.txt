@@ -1,7 +1,7 @@
 shadow.txt
 https://github.com/01-edu/public.git
 
-public.txt
+standard.txt
 https://github.com/01-edu/public.git
 
 thinkertoy.txt

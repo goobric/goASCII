@@ -7,8 +7,16 @@ import (
 )
 
 func main() {
+	// concatenate the arguments from index[1] to one string
 	concatString := strings.Join(os.Args[1:], " ")
 	fmt.Println(concatString)
+	// seperate the characters to a new line when \n is encountered
 	sepWords := strings.Split(concatString, `\n`)
 	fmt.Println(sepWords)
+
+	file, err := os.ReadFile("standard.txt")
+	if err != nil {
+		fmt.Println("Error reading file")
+		panic(err)
+	}
 }

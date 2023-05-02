@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	inputString := strings.Join(os.Args[1:], " ")
-	fmt.Println(inputString)
-	sepWords := strings.Split(inputString, `\n`)
+	concatString := strings.Join(os.Args[1:], " ")
+	fmt.Println(concatString)
+	sepWords := strings.Split(concatString, `\n`)
 	fmt.Println(sepWords)
 }

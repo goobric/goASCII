@@ -22,11 +22,24 @@ func main() {
 	// count number of lines in each string length
 	lines := strings.Split(string(file), "\n")
 	// count number of words in each line
-	for i, word := range words {
+	for i, word := range sepWords {
 		if word == "" {
-			if i < len(words)-1 {
+			if i < len(sepWords)-1 {
 				fmt.Println()
+			}
+			continue
 		}
-		continue
+		// each ascii character is 9 lines tall
+		for h := 1; h < 9; h++ {
+			for _, l := range word {
+				// calculate the range values for each ascii character
+				for lineIndex, line := range lines {
+					if lineIndex == (int(l)-32)*9+h {
+						fmt.Print(line)
+					}
+				}
+			}
+			fmt.Println()
+		}
 	}
 }

@@ -1,4 +1,4 @@
-## ascii-art written in Golang
+## ascii-art project is written in Golang
 
 ### Prerequisites
 - A computer..

@@ -14,7 +14,7 @@ func main() {
 	sepWords := strings.Split(concatString, `\n`)
 	fmt.Println(sepWords)
 	// error handling
-	file, err := os.ReadFile("thinkertoy.txt")
+	file, err := os.ReadFile("standard.txt")
 	if err != nil {
 		fmt.Println("Error reading file")
 		panic(err)
